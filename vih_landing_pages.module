@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the VIH Landing Pages feature.
+ */
+
+include_once 'vih_landing_pages.features.inc';

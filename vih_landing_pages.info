@@ -1,0 +1,16 @@
+name = VIH Landing Pages
+description = Landing pages for VIH
+core = 7.x
+package = VIH
+version = 7.x-0.1
+project = vih_landing_pages
+dependencies[] = ctools
+dependencies[] = page_manager
+features[ctools][] = page_manager:pages_default:1
+features[features_api][] = api:2
+features[page_manager_pages][] = vih_employees
+features[page_manager_pages][] = vih_frontpage
+features[page_manager_pages][] = vih_long_courses
+features[page_manager_pages][] = vih_short_courses_overview
+features[page_manager_pages][] = vih_subject
+features[page_manager_pages][] = vih_tour
