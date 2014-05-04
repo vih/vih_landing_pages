@@ -50,6 +50,14 @@ function vih_landing_pages_default_page_manager_pages() {
     'css' => '',
     'contexts' => array(),
     'relationships' => array(),
+    'metatag_panels' => array(
+      'enabled' => 1,
+      'metatags' => array(
+        'description' => array(
+          'value' => 'En skole bliver aldrig bedre end de lærerkræfter, der dagligt skal sikre en inspirerende og udviklende undervisning. Vi er derfor meget bevidste om, at vi skal kunne tiltrække og fastholde nogle af de dygtigste kapaciteter på de forskellige fagområder.',
+        ),
+      ),
+    ),
   );
   $display = new panels_display();
   $display->layout = 'boxton';
@@ -300,6 +308,20 @@ function vih_landing_pages_default_page_manager_pages() {
     'css' => '',
     'contexts' => array(),
     'relationships' => array(),
+    'metatag_panels' => array(
+      'enabled' => 1,
+      'metatags' => array(
+        'description' => array(
+          'value' => 'Præsentation af de lange højskolekurser på Vejle Idrætshøjskole. På kurserne får du en træner- og lederuddannelse.',
+        ),
+        'abstract' => array(
+          'value' => 'Præsentation af de lange højskolekurser på Vejle Idrætshøjskole. På kurserne får du en træner- og lederuddannelse.',
+        ),
+        'keywords' => array(
+          'value' => 'Idrætshøjskole, højskolekursus, højskolekurser, instruktør, instruktøruddannelse, lederuddannelse, trænerudddannelse, uddannelse, kursusoversigt, kurser, lange, efterår, forår, vinter, speciale, linjefag, liniefag, vinterkursus, skolestart',
+        ),
+      ),
+    ),
   );
   $display = new panels_display();
   $display->layout = 'boxton';
@@ -407,6 +429,23 @@ function vih_landing_pages_default_page_manager_pages() {
     'css' => '',
     'contexts' => array(),
     'relationships' => array(),
+    'metatag_panels' => array(
+      'enabled' => 1,
+      'metatags' => array(
+        'title' => array(
+          'value' => 'Korte kurser, sommerkurser og højskole | [site:name]',
+        ),
+        'description' => array(
+          'value' => 'Korte kurser og sommerkurser på Vejle Idrætshøjskole. Brug din sommer og ferie på højskole. Vi har masser af højskolekurser at vælge mellem.',
+        ),
+        'abstract' => array(
+          'value' => 'Korte kurser og sommerkurser på Vejle Idrætshøjskole. Brug din ferie på højskole. Vi har masser af højskolekurser at vælge mellem.',
+        ),
+        'keywords' => array(
+          'value' => 'højskole, idrætshøjskole, sommerkurser, sommerkursus, højskolekurser, korte kurser, sommerhøjskole, sommer ',
+        ),
+      ),
+    ),
   );
   $display = new panels_display();
   $display->layout = 'boxton';
@@ -539,6 +578,14 @@ function vih_landing_pages_default_page_manager_pages() {
     'css' => '',
     'contexts' => array(),
     'relationships' => array(),
+    'metatag_panels' => array(
+      'enabled' => 1,
+      'metatags' => array(
+        'description' => array(
+          'value' => 'For os er idræt en måde at være sammen på og et middel til at opleve egne og andres muligheder. Idræt er personlighedsudviklende, men personlig udvikling er andet og mere end idræt, derfor lægger vi vægt på musiske, kreative og andre mere bløde fag.',
+        ),
+      ),
+    ),
   );
   $display = new panels_display();
   $display->layout = 'boxton';
@@ -644,6 +691,14 @@ function vih_landing_pages_default_page_manager_pages() {
     'css' => '',
     'contexts' => array(),
     'relationships' => array(),
+    'metatag_panels' => array(
+      'enabled' => 1,
+      'metatags' => array(
+        'description' => array(
+          'value' => 'Velkommen til vores rundvisning på Vejle Idrætshøjskole. Vi håber du vil bruge nogle minutter på at se vores video og danne dig et overblik over vores faciliteter.',
+        ),
+      ),
+    ),
   );
   $display = new panels_display();
   $display->layout = 'boxton';
