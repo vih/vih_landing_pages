@@ -160,6 +160,20 @@ function vih_landing_pages_default_page_manager_pages() {
     'css' => '',
     'contexts' => array(),
     'relationships' => array(),
+    'metatag_panels' => array(
+      'enabled' => 1,
+      'metatags' => array(
+        'title' => array(
+          'value' => '[site:name] | Bliv bedre til at leve livet på højskole',
+        ),
+        'description' => array(
+          'value' => 'Vejle Idrætshøjskole tilbyder korte og lange højskolekurser. Idrætten er vores samlingspunktet i din personlige udvikling. Vejle Idrætshøjskole vil dig, og vi glæder os til at byde dig velkommen på vores højskole.',
+        ),
+        'keywords' => array(
+          'value' => 'idrætshøjskole, højskole',
+        ),
+      ),
+    ),
   );
   $display = new panels_display();
   $display->layout = 'boxton';
@@ -175,6 +189,25 @@ function vih_landing_pages_default_page_manager_pages() {
   $display->uuid = '6d900ca4-6f21-457b-8140-9a1c82c49cf9';
   $display->content = array();
   $display->panels = array();
+    $pane = new stdClass();
+    $pane->pid = 'new-518deac8-367b-401b-a93b-e951f699397d';
+    $pane->panel = 'contentmain';
+    $pane->type = 'fieldable_panels_pane';
+    $pane->subtype = 'fpid:12';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'view_mode' => 'full',
+    );
+    $pane->cache = array();
+    $pane->style = array();
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 0;
+    $pane->locks = array();
+    $pane->uuid = '518deac8-367b-401b-a93b-e951f699397d';
+    $display->content['new-518deac8-367b-401b-a93b-e951f699397d'] = $pane;
+    $display->panels['contentmain'][0] = 'new-518deac8-367b-401b-a93b-e951f699397d';
     $pane = new stdClass();
     $pane->pid = 'new-691602ac-7118-43fb-96dd-2a0a83361bc8';
     $pane->panel = 'contentmain';
@@ -192,11 +225,11 @@ function vih_landing_pages_default_page_manager_pages() {
     );
     $pane->css = array();
     $pane->extras = array();
-    $pane->position = 0;
+    $pane->position = 1;
     $pane->locks = array();
     $pane->uuid = '691602ac-7118-43fb-96dd-2a0a83361bc8';
     $display->content['new-691602ac-7118-43fb-96dd-2a0a83361bc8'] = $pane;
-    $display->panels['contentmain'][0] = 'new-691602ac-7118-43fb-96dd-2a0a83361bc8';
+    $display->panels['contentmain'][1] = 'new-691602ac-7118-43fb-96dd-2a0a83361bc8';
     $pane = new stdClass();
     $pane->pid = 'new-c2ffb059-a134-4e09-8db0-2a1ba254232a';
     $pane->panel = 'contentmain';
@@ -214,11 +247,11 @@ function vih_landing_pages_default_page_manager_pages() {
     );
     $pane->css = array();
     $pane->extras = array();
-    $pane->position = 1;
+    $pane->position = 2;
     $pane->locks = array();
     $pane->uuid = 'c2ffb059-a134-4e09-8db0-2a1ba254232a';
     $display->content['new-c2ffb059-a134-4e09-8db0-2a1ba254232a'] = $pane;
-    $display->panels['contentmain'][1] = 'new-c2ffb059-a134-4e09-8db0-2a1ba254232a';
+    $display->panels['contentmain'][2] = 'new-c2ffb059-a134-4e09-8db0-2a1ba254232a';
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
