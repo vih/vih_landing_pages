@@ -208,7 +208,9 @@ function vih_landing_pages_default_page_manager_pages() {
       'view_mode' => 'full',
     );
     $pane->cache = array();
-    $pane->style = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
     $pane->css = array();
     $pane->extras = array();
     $pane->position = 0;
